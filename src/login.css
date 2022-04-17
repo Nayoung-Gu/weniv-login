@@ -151,33 +151,19 @@ a {
 }
 
 .or {
-  text-align: center;
-  font-weight: 400;
+  display: flex;
+  gap: 1em;
+  align-items: center;
   font-size: 14px;
   margin: 30px 0;
-  position: relative;
 }
 
-.or::before {
-  content: "";
-  position: absolute;
-  height: 1px;
-  width: 210px;
-  display: inline-block;
-  background-color: var(--main-border-color);
-  left: 5px;
-  top: 5px;
-}
-
+.or::before,
 .or::after {
   content: "";
-  position: absolute;
+  flex-grow: 1;
   height: 1px;
-  width: 210px;
-  display: inline-block;
   background-color: var(--main-border-color);
-  right: 7px;
-  top: 5px;
 }
 
 .social-login .social-login-btn {
