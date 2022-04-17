@@ -68,8 +68,8 @@ a {
 }
 
 .login-section .login-main-header {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 17px;
+  font-weight: 600;
   margin-bottom: 20px;
   color: black;
 }
@@ -168,7 +168,6 @@ a {
 
 .social-login .social-login-btn {
   display: block;
-  width: 100%;
   background-color: transparent;
   border-radius: var(--main-border-radius);
   padding: 15px;
@@ -182,7 +181,7 @@ a {
 }
 
 .social-login .social-login-btn:not(.kakao-btn) {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .google-btn {
