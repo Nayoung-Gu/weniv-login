@@ -180,6 +180,17 @@ a {
   cursor: pointer;
 }
 
+.social-login-btn::before {
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 10px;
+  background: url("../images/css_sprites_2x.png") no-repeat;
+  background-size: 76px;
+}
+
 .social-login .social-login-btn:not(.kakao-btn) {
   margin-bottom: 15px;
 }
@@ -187,21 +198,27 @@ a {
 .google-btn {
   border: 1px solid #767676;
 }
-.social-login-btn img {
-  width: 28px;
-  height: 28px;
-  position: absolute;
-  left: 10px;
+.google-btn::before {
+  background-position: -43px -43px;
 }
 
 .facebook-btn {
   border: 1px solid #2d9cdb;
 }
+.facebook-btn::before {
+  background-position: -5px -43px;
+}
 
 .naver-btn {
   border: 1px solid #00bf18;
 }
+.naver-btn::before {
+  background-position: -43px -5px;
+}
 
 .kakao-btn {
   border: 1px solid #f2c94c;
+}
+.kakao-btn::before {
+  background-position: -5px -5px;
 }
